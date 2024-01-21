@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+canvas {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    background-color: transparent;
+    overflow: none;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#visualizer{
+    border-radius: 20px;
+}
